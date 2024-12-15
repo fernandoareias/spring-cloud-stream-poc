@@ -1,0 +1,15 @@
+node_id: 3
+seed_servers:
+  - host:
+      address: redpanda1
+      port: 33145
+kafka_api:
+  - address: 0.0.0.0
+    port: 9092
+  - address: 127.0.0.1
+    port: 19093
+advertised_kafka_api:
+  - address: redpanda3
+    port: 9092
+  - address: 127.0.0.1
+    port: 19093
